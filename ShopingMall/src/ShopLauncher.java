@@ -7,6 +7,7 @@ public class ShopLauncher {
 		shop.setTitle("My shop");
 		shop.genUser();
 		shop.genProduct();
+		
 		shop.start();
 		
 	}

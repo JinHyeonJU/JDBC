@@ -6,8 +6,9 @@ import javax.swing.JLabel;
 public class Swing extends JFrame {
 	public Swing() {
 		super("Hello World");
+		setUndecorated(true);
 		getContentPane().setLayout(new FlowLayout());
-		JLabel label = new JLabel("Welcome to Swing");
+		JLabel label = new JLabel("잠와요 교수님");
 		getContentPane().add(label);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		setSize(400, 400);
